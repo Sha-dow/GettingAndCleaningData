@@ -15,3 +15,14 @@ Repository contains following files:
 - Tidy_Dataset.txt
     - Clean dataset created as a result of run_analysis.R
     
+## Analysis functionality
+
+run_analysis.R does the following steps:
+
+- Downloads and unzips the destination files
+- Reads data to variables and merges it to one dataset
+- Sets correct names
+- Reads and sets activity labels
+- Extracts mean and std values from dataset
+- Corrects measurement names in dataset
+- Outputs tidied dataset
