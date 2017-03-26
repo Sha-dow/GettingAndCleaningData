@@ -12,17 +12,15 @@ First row contains the header information.
 
 Variables are described below. 
 
-- `Subject`
-    Identifier, values between 1-30
+- `Subject` Identifier, values between 1-30
     
-- `Activity`
-    	Activity type. Options:
-        - WALKING
-        - WALKING_UPSTAIRS
-    	- WALKING_DOWNSTAIRS
-    	- SITTING
-    	- STANDING
-    	- LAYING
+- `Activity` Activity type:
+	- WALKING 
+	- WALKING_UPSTAIRS
+	- WALKING_DOWNSTAIRS
+	- SITTING
+	- STANDING
+	- LAYING
 	    
 Following values are measurements for different signals. Names are quite self descriptive. Values are floating point numbers between -1 and 1.
 Measurements consist of Time and Frequency based data containing mean and std -values.
